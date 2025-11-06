@@ -50,9 +50,9 @@ export default defineConfig({
     },
   },
   build: {
-    target: 'esnext',
-    outDir: 'build', // 👈 Carpeta de salida personalizada
-    emptyOutDir: true, // limpia la carpeta antes de construir
+    outDir: "build",
+    emptyOutDir: true,
+    target: "esnext"
   },
   server: {
     port: 3000,
